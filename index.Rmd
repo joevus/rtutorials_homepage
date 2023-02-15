@@ -17,28 +17,35 @@ thumbnail <- function(title, img, href, caption = TRUE) {
 
     div(class="row",
       div(class="col-sm-3",
-        tags$ul(
-          class="nav nav-pills nav-stacked",
-          tags$li(
-            a("ANOVA")
+        div(
+          class="list-group",
+          a(
+            class="list-group-item",
+            "ANOVA"
           ),
-          tags$li(
-            a("Correlation and Regression")
+          a(
+            class="list-group-item",
+            "Correlation and Regression"
           ),
-          tags$li(
-            a("Data Frames")
+          a(
+            class="list-group-item",
+            "Data Frames"
           ),
-          tags$li(
-            a("Intro to R")
+          a(
+            class="list-group-item",
+            "Intro to R"
           ),
-          tags$li(
-            a("Missing Values")
+          a(
+            class="list-group-item",
+            "Missing Values"
           ),
-          tags$li(
-            a("Numerical Descriptives in R")
+          a(
+            class="list-group-item",
+            "Numerical Descriptives in R"
           ),
-          tags$li(
-            a("t Tests")
+          a(
+            class="list-group-item",
+            "t Tests"
           )
         ),
       ),

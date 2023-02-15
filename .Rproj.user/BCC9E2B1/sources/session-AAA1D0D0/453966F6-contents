@@ -58,6 +58,7 @@ if (window.hljs) {
 
 
 
+<link rel="stylesheet" href="styles.css" type="text/css" />
 
 
 
@@ -266,29 +267,15 @@ $(document).ready(function () {
 
 <div class="row">
 <div class="col-sm-3">
-<ul class="nav nav-pills nav-stacked">
-<li>
-<a>ANOVA</a>
-</li>
-<li>
-<a>Correlation and Regression</a>
-</li>
-<li>
-<a>Data Frames</a>
-</li>
-<li>
-<a>Intro to R</a>
-</li>
-<li>
-<a>Missing Values</a>
-</li>
-<li>
-<a>Numerical Descriptives in R</a>
-</li>
-<li>
-<a>t Tests</a>
-</li>
-</ul>
+<div class="list-group">
+<a class="list-group-item">ANOVA</a>
+<a class="list-group-item">Correlation and Regression</a>
+<a class="list-group-item">Data Frames</a>
+<a class="list-group-item">Intro to R</a>
+<a class="list-group-item">Missing Values</a>
+<a class="list-group-item">Numerical Descriptives in R</a>
+<a class="list-group-item">t Tests</a>
+</div>
 </div>
 <div class="col-sm-9">
 <h2>BSOS R Tutorials</h2>
