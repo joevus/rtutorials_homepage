@@ -4,53 +4,36 @@ library(htmltools)
 ```
 
 ```{r, echo=FALSE}
-
-
     div(class="row",
       div(class="col-sm-3",
         div(
           class="list-group",
           a(
             class="list-group-item",
-            "ANOVA",
-            href="Tutorials/ANOVA/ANOVA.html"
+            "Anthropology R Tutorials",
+            href="shiny-apps/ANTHROPOLOGY_R_TUTORIALS"
           ),
           a(
             class="list-group-item",
-            "Correlation and Regression",
-            href="Tutorials/Correlation and Regression/Regression.html"
+            "BSOS R Tutorials",
+            href="shiny-apps/BSOS_R_Tutorial"
           ),
           a(
             class="list-group-item",
-            "Data Frames",
-            href="Tutorials/Data Frames/Working-with-Data-frames.html"
+            "Machine Learning for Social Science",
+            href="shiny-apps/mlforsocialscience"
           ),
           a(
             class="list-group-item",
-            "Intro to R",
-            href="Tutorials/Intro to R/Introduction-to-R.html"
-          ),
-          a(
-            class="list-group-item",
-            "Missing Values",
-            href="Tutorials/Missing Values/Missing-Values.html"
-          ),
-          a(
-            class="list-group-item",
-            "Numerical Descriptives in R",
-            href="Tutorials/Numerical Descriptives/Numerical Descriptives in R/Numerical-Descriptives-in-R.html"
-          ),
-          a(
-            class="list-group-item",
-            "t Tests",
-            href="Tutorials/t Tests/t-tests.html"
+            "UMD Psychology",
+            href="shiny-apps/umdpsyc"
           )
         ),
       ),
       div(
         class="col-sm-9",
-        h2("BSOS R Tutorials"),
-        p("Welcome to the BSOS R Tutorials Landing page. Here you can find links to the tutorials that are a part of this series. They are on the left sidebar or if you're using a small screen, they are above.")
+        h2("Social Data Science R Tutorials"),
+        p("Welcome to the Social Data Science R Tutorials hompage. Here you can find links to collections of tutorials. They are on the left sidebar, or, if you're using a small screen, they are above.")
       )
     )
 
