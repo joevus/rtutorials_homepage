@@ -21,31 +21,38 @@ thumbnail <- function(title, img, href, caption = TRUE) {
           class="list-group",
           a(
             class="list-group-item",
-            "ANOVA"
+            "ANOVA",
+            href="Tutorials/ANOVA/ANOVA.html"
           ),
           a(
             class="list-group-item",
-            "Correlation and Regression"
+            "Correlation and Regression",
+            href="Tutorials/Correlation and Regression/Regression.html"
           ),
           a(
             class="list-group-item",
-            "Data Frames"
+            "Data Frames",
+            href="Tutorials/Data Frames/Working-with-Data-frames.html"
           ),
           a(
             class="list-group-item",
-            "Intro to R"
+            "Intro to R",
+            href="Tutorials/Intro to R/Introduction-to-R.html"
           ),
           a(
             class="list-group-item",
-            "Missing Values"
+            "Missing Values",
+            href="Tutorials/Missing Values/Missing-Values.html"
           ),
           a(
             class="list-group-item",
-            "Numerical Descriptives in R"
+            "Numerical Descriptives in R",
+            href="Tutorials/Numerical Descriptives/Numerical Descriptives in R/Numerical-Descriptives-in-R.html"
           ),
           a(
             class="list-group-item",
-            "t Tests"
+            "t Tests",
+            href="Tutorials/t Tests/t-tests.html"
           )
         ),
       ),

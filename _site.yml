@@ -1,6 +1,6 @@
-name: "BSOS R Tutorials"
+name: "Social Data Science R Tutorials"
 navbar:
-  title: "BSOS Tutorials"
+  title: "Social Data Science R Tutorials"
   left:
     - text: "Home"
       href: index.html
