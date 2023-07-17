@@ -2,3 +2,8 @@ a.list-group-item {
     cursor: pointer;
     color: #1a0dab;
 }
+
+a.list-group-item:hover {
+    color: #1a0dab;
+    background-color: #e8eaf6;
+}
